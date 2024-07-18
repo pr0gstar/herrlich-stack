@@ -1,4 +1,4 @@
-import { remember } from "@epic-web/remember";
+import { remember } from "app/utils/singleton";
 import { PrismaClient } from "@prisma/client";
 import chalk from "chalk";
 

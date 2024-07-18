@@ -19,7 +19,6 @@
     "/server-build"
   ],
   "dependencies": {
-    "@epic-web/remember": "^1.1.0",
     "@prisma/client": "^5.17.0",
     "@remix-run/node": "^2.10.3",
     "@remix-run/react": "^2.10.3",

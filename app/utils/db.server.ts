@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 declare global {
-  var __prisma: PrismaClient;
+  const __prisma: PrismaClient;
 }
 if (!global.__prisma) {
   global.__prisma = new PrismaClient();
